@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    
+    <BlueprintClassEntries>
+        
+        <Entry Class="BasicEquipment" BlueprintSubtypeId="Position0005_StratGun" />
+        <Entry Class="BasicEquipment" BlueprintSubtypeId="Position0005_StratGunMagazine" />
+        <Entry Class="SimpleEquipment" BlueprintSubtypeId="Position0005_StratGun" />
+        <Entry Class="SimpleEquipment" BlueprintSubtypeId="Position0005_StratGunMagazine" />
+        <Entry Class="EliteEquipment" BlueprintSubtypeId="Position0005_StratGun" />
+        <Entry Class="EliteEquipment" BlueprintSubtypeId="Position0005_StratGunMagazine" />
+		
+		<Entry Class="BasicEquipment" BlueprintSubtypeId="Position0005_SOSGun" />
+        <Entry Class="BasicEquipment" BlueprintSubtypeId="Position0005_SosGunMagazine" />
+        <Entry Class="SimpleEquipment" BlueprintSubtypeId="Position0005_SOSGun" />
+        <Entry Class="SimpleEquipment" BlueprintSubtypeId="Position0005_SosGunMagazine" />
+        <Entry Class="EliteEquipment" BlueprintSubtypeId="Position0005_SOSGun" />
+        <Entry Class="EliteEquipment" BlueprintSubtypeId="Position0005_SosGunMagazine" />
+        
+		
+    </BlueprintClassEntries>
+</Definitions>

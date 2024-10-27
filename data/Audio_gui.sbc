@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Sounds>
+        
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>ZoneCapped</SubtypeId>
+            </Id>
+            <Category>Music</Category>
+            <MaxDistance>2000</MaxDistance>
+            <Volume>1</Volume>
+            <Waves>
+                <Wave Type="D2">
+                    <Start>Audio\MUS\MusPvPMatch\se_PvP_win.wav</Start>
+                </Wave>
+            </Waves>
+            <TransitionCategory>NoRandom</TransitionCategory>
+            <MusicCategory>MusicMenu</MusicCategory>
+        </Sound>
+       <!-- <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>MusicTie</SubtypeId>
+            </Id>
+            <Category>Music</Category>
+            <MaxDistance>2000</MaxDistance>
+            <Volume>0.3</Volume>
+            <Waves>
+                <Wave Type="D2">
+                    <Start>MUS\MusPvPMatch\se_PvP_tie.wav</Start>
+                </Wave>
+            </Waves>
+            <TransitionCategory>NoRandom</TransitionCategory>
+            <MusicCategory>MusicMenu</MusicCategory>
+        </Sound>-->
+        <Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>ZoneLost</SubtypeId>
+            </Id>
+            <Category>Music</Category>
+            <MaxDistance>2000</MaxDistance>
+            <Volume>1</Volume>
+            <Waves>
+                <Wave Type="D2">
+                    <Start>Audio\MUS\MusPvPMatch\se_PvP_lose.wav</Start>
+                </Wave>
+            </Waves>
+            <TransitionCategory>NoRandom</TransitionCategory>
+            <MusicCategory>MusicMenu</MusicCategory>
+        </Sound>
+		
+		
+		<Sound>
+            <Id>
+                <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+                <SubtypeId>NewOrder</SubtypeId>
+            </Id>
+            <Category>Music</Category>
+			<MaxDistance>2000</MaxDistance>
+            <Volume>0.3</Volume>
+            <Waves>
+                <Wave Type="D2">
+                    <Start>Audio\ARC\HUD\Target_Lock_Loading_Loop.wav</Start>
+                    <!--<End>Audio\ARC\HUD\Target_Lock_Confirmation_2.wav</End>-->
+                </Wave>
+            </Waves>
+        </Sound>
+
+        
+
+    </Sounds>
+</Definitions>

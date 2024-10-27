@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <PhysicalItems>
+        
+
+        <PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>StratagemGunItem</SubtypeId>
+            </Id>
+            <DisplayName>Stratagem Launcher</DisplayName>
+            <Icon>Textures\GUI\Icons\FlareGun.dds</Icon>
+            <Description>Use this tool to call in strikes from owned and allied builds with Offensive AI or Weaponcore Turrets</Description>
+            <Size>
+                <X>0.27</X>
+                <Y>0.15</Y>
+                <Z>0.08</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>6</Volume>
+            <Model>Models\Weapons\Pistol_FlareGun.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <WeaponDefinitionId Subtype="StratagemPistolGun" />
+            <ShowAmmoCount>true</ShowAmmoCount>
+            <MinimumOfferAmount>2</MinimumOfferAmount>
+            <MaximumOfferAmount>5</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>100</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+		
+		<PhysicalItem xsi:type="MyObjectBuilder_WeaponItemDefinition">
+            <Id>
+                <TypeId>PhysicalGunObject</TypeId>
+                <SubtypeId>SOSGunItem</SubtypeId>
+            </Id>
+            <DisplayName>SOS Beacon Launcher</DisplayName>
+            <Icon>Textures\GUI\Icons\FlareGun.dds</Icon>
+            <Description>Use this tool to set up an SOS beacon to help players rally at your location</Description>
+            <Size>
+                <X>0.27</X>
+                <Y>0.15</Y>
+                <Z>0.08</Z>
+            </Size>
+            <Mass>1</Mass>
+            <Volume>6</Volume>
+            <Model>Models\Weapons\Pistol_FlareGun.mwm</Model>
+            <PhysicalMaterial>Metal</PhysicalMaterial>
+            <WeaponDefinitionId Subtype="SOSPistolGun" />
+            <ShowAmmoCount>true</ShowAmmoCount>
+            <MinimumOfferAmount>2</MinimumOfferAmount>
+            <MaximumOfferAmount>5</MaximumOfferAmount>
+            <MinimumOrderAmount>10</MinimumOrderAmount>
+            <MaximumOrderAmount>100</MaximumOrderAmount>
+            <CanPlayerOrder>true</CanPlayerOrder>
+        </PhysicalItem>
+
+        
+    </PhysicalItems>
+</Definitions>

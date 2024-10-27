@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Blueprints>
+		<!-- Resource Processing -->
+        
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0005_StratGun</SubtypeId>
+            </Id>
+            <DisplayName>Stratagem Launcher</DisplayName>
+            <Icon>Textures\GUI\Icons\FlareGun.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.3" TypeId="Ingot" SubtypeId="Nickel" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="StratagemGunItem" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+		
+		<Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0005_SOSGun</SubtypeId>
+            </Id>
+            <DisplayName>SOS Beacon Launcher</DisplayName>
+            <Icon>Textures\GUI\Icons\FlareGun.dds</Icon>
+            <Prerequisites>
+                <Item Amount="1" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.3" TypeId="Ingot" SubtypeId="Nickel" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="PhysicalGunObject" SubtypeId="SOSGunItem" />
+            <BaseProductionTimeInSeconds>6</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+
+
+        <!-- Tools -->
+        
+
+        <Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0005_StratGunMagazine</SubtypeId>
+            </Id>
+            <DisplayName>Stratagem Launcher Ammo</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\FlareGun_Ammo.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.20" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.05" TypeId="Ingot" SubtypeId="Nickel" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="StratClip" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+		
+		<Blueprint>
+            <Id>
+                <TypeId>BlueprintDefinition</TypeId>
+                <SubtypeId>Position0005_SosGunMagazine</SubtypeId>
+            </Id>
+            <DisplayName>SOS Beacon Launcher Ammo</DisplayName>
+            <Icon>Textures\GUI\Icons\ammo\FlareGun_Ammo.dds</Icon>
+            <Prerequisites>
+                <Item Amount="0.20" TypeId="Ingot" SubtypeId="Iron" />
+                <Item Amount="0.05" TypeId="Ingot" SubtypeId="Nickel" />
+            </Prerequisites>
+            <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="SosClip" />
+            <BaseProductionTimeInSeconds>3</BaseProductionTimeInSeconds>
+        </Blueprint>
+
+        
+		
+    </Blueprints>
+</Definitions>
